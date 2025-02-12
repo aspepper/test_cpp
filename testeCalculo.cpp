@@ -16,7 +16,7 @@ int main() {
     // Realiza cálculos complexos com paralelismo
     double result = 0.0;
     #pragma omp parallel for reduction(+:result)
-    for (int i = 1; i <= 10000000; ++i) {
+    for (int i = 1; i <= 100000000; ++i) {
         double i_f64 = static_cast<double>(i);
         result += std::sin(std::sqrt(i_f64)) * std::cos(i_f64) * std::tan(i_f64);
     }
