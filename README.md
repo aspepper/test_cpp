@@ -1,7 +1,11 @@
 <h2 align="center">C++ Benchmarks</h2>
 
 ## Using g++ for compiling as below:
+<br />
 
+<p>First install g++ in terminal</p>
+% brew install gcc<br />
+<br />
 * g++ -march=native .\complex_calc.cpp -ffast-math -o complex_calc<br />
 * g++ -std=c++17 -O3 -march=native -flto -ffast-math complex_calc.cpp -o complex_calc<br />
 
