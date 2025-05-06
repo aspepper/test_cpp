@@ -9,6 +9,7 @@
 
 * g++ -march=native .\complex_calc.cpp -ffast-math -o complex_calc<br />
 * g++ -std=c++17 -O3 -march=native -flto -ffast-math complex_calc.cpp -o complex_calc<br />
+<br />
 
 * g++ -march=native .\matrix_mul.cpp -ffast-math -o matrix_mul<br />
 * g++ -std=c++17 -O3 -march=native -flto -ffast-math matrix_mul.cpp -o matrix_mul<br />
