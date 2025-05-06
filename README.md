@@ -1,4 +1,4 @@
-<h2 align="center">Rust Benchmarks</h2>
+<h2 align="center">C++ Benchmarks</h2>
 
 ## Using g++ for compiling as below:
 
