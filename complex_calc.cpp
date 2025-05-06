@@ -1,3 +1,7 @@
+/*
+g++ -std=c++17 -O3 -march=native -flto -ffast-math complex_calc.cpp -o complex_calc
+*/
+
 #include <iostream>
 #include <cmath>
 #include <chrono>
@@ -28,7 +32,7 @@ int main() {
     std::chrono::milliseconds duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
 
     // Exibe o tempo de execução e o resultado do cálculo
-    std::cout << "C++: Execution time: " << duration.count() << " ms" << std::endl;
+    std::cout << "C++: Complex Calc: " << duration.count() << " ms" << std::endl;
     std::cout << "Result: " << result << std::endl;
 
     return 0;
