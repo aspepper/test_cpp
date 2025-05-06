@@ -22,6 +22,7 @@
 * g++ -march=native .\thread_spawn.cpp -ffast-math -o thread_spawn<br />
 * g++ -std=c++17 -O3 -march=native -flto -ffast-math thread_spawn.cpp -o thread_spawn<br />
 <br />
+
 ## Running binaries
 ./complex_calc<br />
 ./matrix_mul<br />
