@@ -1,5 +1,6 @@
 /*
-g++ -std=c++17 -O3 -march=native -flto -ffast-math matrix_mul.cpp -o matrix_mul
+ name: matrix_mul.cpp
+ compiling: g++ -std=c++17 -O3 -march=native -flto -ffast-math matrix_mul.cpp -o matrix_mul
 */
 
 #include <iostream>

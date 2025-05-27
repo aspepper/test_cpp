@@ -1,5 +1,6 @@
 /*
-g++ -std=c++17 -O3 -march=native -flto -ffast-math thread_spawn.cpp -o thread_spawn
+ name: thread_spawn.cpp
+ compiling: g++ -std=c++17 -O3 -march=native -flto -ffast-math thread_spawn.cpp -o thread_spawn
 */
 
 #include <iostream>

@@ -1,5 +1,6 @@
 /*
-g++ -std=c++17 -O3 -march=native -flto -ffast-math sieve.cpp -o sieve
+ name: sieve.cpp
+ compiling: g++ -std=c++17 -O3 -march=native -flto -ffast-math sieve.cpp -o sieve
 */
 
 #include <iostream>

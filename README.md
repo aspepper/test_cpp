@@ -23,8 +23,12 @@
 * g++ -std=c++17 -O3 -march=native -flto -ffast-math thread_spawn.cpp -o thread_spawn<br />
 <br />
 
+* g++ -std=c++17 bolinha.cpp -o bolinha -lncurses<br />
+<br />
+
 ## Running binaries
 ./complex_calc<br />
 ./matrix_mul<br />
 ./sieve<br />
 ./thread_spawn<br />
+./bolinha<br />

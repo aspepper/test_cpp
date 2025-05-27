@@ -1,5 +1,6 @@
 /*
-g++ -std=c++17 -O3 -march=native -flto -ffast-math complex_calc.cpp -o complex_calc
+ name: complex_calc.cpp
+ compiling: g++ -std=c++17 -O3 -march=native -flto -ffast-math complex_calc.cpp -o complex_calc
 */
 
 #include <iostream>
